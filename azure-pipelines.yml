@@ -10,5 +10,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: git push https://dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules master
+- script: git push https://dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules master:master
   displayName: 'git push'
