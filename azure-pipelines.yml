@@ -13,5 +13,5 @@ steps:
 - script: git show-ref
   displayName: 'show ref'
 
-- script: git push https://dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules master:master
+- script: git push https://dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules HEAD:master
   displayName: 'git push'
