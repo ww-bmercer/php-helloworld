@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: git pull
+- script: git pull master master
   displayName: 'git pull'
 
-- script: git push https://$(git_user_name):$(git_PAT)@dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules HEAD:master --force
+- script: git push https://$(git_user_name):$(git_PAT)@dev.azure.com/wessex-water/_git/Bicep%20Registry%20Modules master:master --force
   displayName: 'git push'
